@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'FlashingLabel_Example' do
   pod 'FlashingLabel', :path => '../'
-
-  target 'FlashingLabel_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
