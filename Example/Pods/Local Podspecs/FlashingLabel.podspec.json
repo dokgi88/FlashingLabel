@@ -1,0 +1,22 @@
+{
+  "name": "FlashingLabel",
+  "version": "0.1.0",
+  "summary": "A short description of FlashingLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dokgi1988/FlashingLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dokgi1988": "dokgi88@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dokgi1988/FlashingLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlashingLabel/Classes/**/*"
+}

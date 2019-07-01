@@ -1,0 +1,6 @@
+framework module FlashingLabel {
+  umbrella header "FlashingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
