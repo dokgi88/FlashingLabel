@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FlashingLabel
 
 class ViewController: UIViewController {
 
