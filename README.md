@@ -1,28 +1,35 @@
+![flashinglabel_trans](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_trans.png?raw=true)
+
 # FlashingLabel
 
-[![CI Status](https://img.shields.io/travis/dokgi1988/FlashingLabel.svg?style=flat)](https://travis-ci.org/dokgi1988/FlashingLabel)
-[![Version](https://img.shields.io/cocoapods/v/FlashingLabel.svg?style=flat)](https://cocoapods.org/pods/FlashingLabel)
-[![License](https://img.shields.io/cocoapods/l/FlashingLabel.svg?style=flat)](https://cocoapods.org/pods/FlashingLabel)
-[![Platform](https://img.shields.io/cocoapods/p/FlashingLabel.svg?style=flat)](https://cocoapods.org/pods/FlashingLabel)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/dokgi88/FlashingLabel/blob/master/LICENSE)
 
-## Example
+![flashinglabel_play.gif](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_play.gif?raw=true)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Install
 
-## Requirements
-
-## Installation
-
-FlashingLabel is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
+```swift
 pod 'FlashingLabel'
 ```
 
-## Author
+## Example
 
-dokgi1988, dokgi88@gmail.com
+* init and start flashing
+```swift
+let label = FlashingLabel()
+label.baseColor = UIColor.orange
+label.flashingColors = [UIColor.orange.withAlphaComponent(0.5)]
+label.flashingTime = 0.17
+label.text = "HELLO"
+label.startFlashing()
+```
+
+* stop flashing
+```swift
+label.stopFlashing()
+```
 
 ## License
 
