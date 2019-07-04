@@ -16,6 +16,14 @@ pod 'FlashingLabel'
 
 ## Example
 
+* required
+```swift
+baseColor = UIColor.orange
+flashingColors = [UIColor.orange.withAlphaComponent(0.5)]
+flashingTime = 0.17
+startFlashing()
+```
+
 * init and start flashing
 ```swift
 let label = FlashingLabel()
