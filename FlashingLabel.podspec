@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Veeeeeeeeeeeeeeeery easy to use and simple Flashing Label.'
 
-  s.homepage         = 'https://github.com/dokgi1988/FlashingLabel'
+  s.homepage         = 'https://github.com/dokgi88/FlashingLabel'
    s.screenshots     = 'https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_trans.png?raw=true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dokgi88' => 'dokgi88@gmail.com' }
-  s.source           = { :git => 'https://github.com/dokgi1988/FlashingLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dokgi88/FlashingLabel.git', :tag => s.version.to_s }
 
   s.swift_versions = '5.0'
   s.ios.deployment_target = '9.0'
