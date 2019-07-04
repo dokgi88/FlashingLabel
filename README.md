@@ -1,4 +1,4 @@
-_<p align="center">![flashinglabel_trans](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_trans.png?raw=true)</p>
+<p align="center">![flashinglabel_trans](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_trans.png?raw=true)</p>
 
 # FlashingLabel
 
