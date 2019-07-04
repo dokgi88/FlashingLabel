@@ -54,7 +54,7 @@ public class FlashingLabel: UILabel {
             let count = (Array(text).count <= increCount) ? increCount-sliceColors.count:increCount
             let color = sliceColors[i]
             let range = NSMakeRange(count, 1)
-            attribute.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: range)
+            attribute.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: range)
         }
         attributedText = attribute
         
