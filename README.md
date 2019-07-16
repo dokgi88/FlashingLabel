@@ -6,7 +6,7 @@ _<p align="center">![flashinglabel_trans](https://github.com/dokgi88/dokgi88.git
 ![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/dokgi88/FlashingLabel/blob/master/LICENSE)
 
-![flashinglabel_play.gif](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_play.gif?raw=true)
+![flashinglabel_new.gif](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_new.gif?raw=true)
 
 ## Install
 
