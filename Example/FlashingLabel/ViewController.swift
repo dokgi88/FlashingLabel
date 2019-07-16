@@ -17,28 +17,16 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
         return view
     }()
-    private let blackView: FlashingContainerView = {
-        let view = FlashingContainerView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .black
-        return view
-    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.addSubview(whiteView)
-        view.addSubview(blackView)
 
         whiteView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         whiteView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        whiteView.trailingAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        whiteView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         whiteView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-
-        blackView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        blackView.leadingAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        blackView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        blackView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -100,7 +88,7 @@ class FlashingContainerView: UIView {
         label.baseColor = UIColor.black.withAlphaComponent(0.1)
         label.flashingColors = [.pantone_roseQuartz(), .pantone_serenity(), .pantone_greenery(), .pantone_ultraViolet(), .pantone_livingCoral(), .pantone_roseQuartz()]
         label.flashingTime = 0.17
-        label.text = "HELLO"
+        label.text = "HELLO FLASHING LABEL"
         label.font = .boldSystemFont(ofSize: 20)
         label.startFlashing()
         return label
