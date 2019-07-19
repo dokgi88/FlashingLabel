@@ -35,6 +35,14 @@ label.text = "HELLO"
 label.startFlashing()
 ```
 
+* infinite mode
+
+![flashinglabel_infinite.gif](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_infinite.gif?raw=true)
+```swift
+label.flashingColors = [.orange, .purple]
+label.isInfinite = true
+```
+
 * stop flashing
 ```swift
 label.stopFlashing()
