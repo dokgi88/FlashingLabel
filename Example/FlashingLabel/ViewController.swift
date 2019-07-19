@@ -85,11 +85,23 @@ class FlashingContainerView: UIView {
     private let flashLabelMultiple: FlashingLabel = {
         let label = FlashingLabel()
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "HELLO FLASHING LABEL"
+        label.font = .boldSystemFont(ofSize: 20)
         label.baseColor = UIColor.black.withAlphaComponent(0.1)
         label.flashingColors = [.pantone_roseQuartz(), .pantone_serenity(), .pantone_greenery(), .pantone_ultraViolet(), .pantone_livingCoral(), .pantone_roseQuartz()]
         label.flashingTime = 0.17
+        label.startFlashing()
+        return label
+    }()
+    private let flashLabelInfinite: FlashingLabel = {
+        let label = FlashingLabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "HELLO FLASHING LABEL"
         label.font = .boldSystemFont(ofSize: 20)
+        label.baseColor = UIColor.black.withAlphaComponent(0.1)
+        label.flashingColors = [.pantone_roseQuartz(), .pantone_serenity(), .pantone_greenery(), .pantone_ultraViolet(), .pantone_livingCoral(), .pantone_roseQuartz()]
+        label.flashingTime = 0.17
+        label.isInfinite = true
         label.startFlashing()
         return label
     }()
@@ -100,6 +112,7 @@ class FlashingContainerView: UIView {
         addSubview(flashLabelFirst)
         addSubview(flashLabelSecond)
         addSubview(flashLabelMultiple)
+        addSubview(flashLabelInfinite)
         addSubview(flashLabelThird)
         addSubview(flashLabelFourth)
         layout()
@@ -117,9 +130,12 @@ class FlashingContainerView: UIView {
         flashLabelSecond.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         
         flashLabelMultiple.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
-        flashLabelMultiple.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        flashLabelMultiple.bottomAnchor.constraint(equalTo: centerYAnchor, constant: -4).isActive = true
         
-        flashLabelThird.topAnchor.constraint(equalTo: flashLabelMultiple.bottomAnchor, constant: 8).isActive = true
+        flashLabelInfinite.topAnchor.constraint(equalTo: centerYAnchor, constant: 4).isActive = true
+        flashLabelInfinite.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        
+        flashLabelThird.topAnchor.constraint(equalTo: flashLabelInfinite.bottomAnchor, constant: 8).isActive = true
         flashLabelThird.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         
         flashLabelFourth.topAnchor.constraint(equalTo: flashLabelThird.bottomAnchor, constant: 8).isActive = true
