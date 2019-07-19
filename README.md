@@ -15,7 +15,7 @@ _<p align="center">![flashinglabel_trans](https://github.com/dokgi88/dokgi88.git
 pod 'FlashingLabel'
 ```
 
-## Example
+## How to use
 
 * required
 ```swift
