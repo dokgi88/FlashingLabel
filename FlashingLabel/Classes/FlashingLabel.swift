@@ -46,7 +46,7 @@ public class FlashingLabel: UILabel {
         guard let baseColor = baseColor else {return}
         textColor = baseColor
         
-        guard !flashingTimer.isValid, let flashingTime = flashingTime, let flashingColors = flashingColors else {return}
+        guard !flashingTimer.isValid, let flashingTime = flashingTime, let flashingColors = flashingColors, textCount > 0 else {return}
         
         var tempColors = [UIColor]()
         
