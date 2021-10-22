@@ -2,9 +2,9 @@ _<p align="center">![flashinglabel_trans](https://github.com/dokgi88/dokgi88.git
 
 # FlashingLabel
 
-![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
-![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/dokgi88/FlashingLabel/blob/master/LICENSE)
+![Swift](https://img.shields.io/badge/Swift-5.0-FA7343.svg?&style=flat-square&logo=Swift&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-iOS-000000.svg?&style=flat-square&logo=iOS&logoColor=white)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?&style=flat-square)](https://github.com/dokgi88/FlashingLabel/blob/master/LICENSE)
 
 ![flashinglabel_new_white.gif](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_new_white.gif?raw=true)
 ![flashinglabel_new_black.gif](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_new_black.gif?raw=true)
