@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlashingLabel'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'very easy and simple flashing label'
 
 # This description is used to generate tags and improve search results.
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'FlashingLabel/Classes/**/*'
+  s.source_files = 'Sources/FlashingLabel/Classes/**/*'
 end
