@@ -10,9 +10,16 @@ _<p align="center">![flashinglabel_trans](https://github.com/dokgi88/dokgi88.git
 ![flashinglabel_new_black.gif](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/FlashingLabel/flashinglabel_new_black.gif?raw=true)
 
 ## Install
-
+### CocoaPod
 ```swift
 pod 'FlashingLabel'
+```
+### Swift Package Manager
+```swift
+dependencies: [
+    .package(url: "https://github.com/dokgi88/FlashingLabel.git", from: "1.0.6"),
+    /// ...
+]
 ```
 
 ## How to use
